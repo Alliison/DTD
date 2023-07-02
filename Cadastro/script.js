@@ -2,8 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const cadastroForm = document.getElementById('cadastroForm');
   
     //cadastroForm.addEventListener('submit', function(event) {
-      //event.preventDefault();
-  
+      //event.preventDefault(); 
       const nome = document.getElementById('nome').value;
       const email = document.getElementById('email').value;
       const senha1 = document.getElementById('senha1').value;
@@ -109,4 +108,3 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('Servidor iniciado na porta 3000');
     });
 }
-  
